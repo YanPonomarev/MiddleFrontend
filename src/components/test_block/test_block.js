@@ -4,7 +4,7 @@ import '../button'
 
 document.addEventListener('DOMContentLoaded', () => {
     document.body.innerHTML = template({
-        btn_name: 'Батон найм',
+        btn_name: 'Авторизоваться',
         test_name: 'Тест найм'
     });
 });
