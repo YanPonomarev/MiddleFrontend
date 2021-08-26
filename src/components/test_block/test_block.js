@@ -1,8 +1,10 @@
-import tmpl from './test_block.tmpl'
-import Handlebars from "handlebars";
+import template from './test_block.hbs'
 import './test_block.scss'
+import '../button'
 
-const template = Handlebars.compile(tmpl);
-const test_block_name = 'Зарегистрироваться';
-const html = template(test_block_name);
-document.body.innerHTML = html;
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.innerHTML = template({
+        btn_name: 'Батон найм',
+        test_name: 'Тест найм'
+    });
+});
