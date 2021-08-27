@@ -1,7 +1,8 @@
 .dialog-window {
     width: 340px;
-    height: 450px;
+    min-height: 257px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
     background-color: white;
     border-radius: 12px;
+    padding-bottom: 50px;
 }
