@@ -1,0 +1,17 @@
+.text-input {
+    font-size: 16px;
+    padding: 0 0 4px 0;
+    display: block;
+    width: 280px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #3369F3;
+    &:focus {
+        outline: none;
+    }
+}
+
+.text-label {
+    display: block;
+    height: 64px;
+}
